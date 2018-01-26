@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Be More Social",
+  "description": "Remove cheapend interactions on Social Media.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://www.facebook.com/*",
+        "https://m.facebook.com/*"
+      ],
+      "css": ["remove-social.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "remove-social.css"
+  ],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://www.facebook.com/*", 
+    "https://facebook.com/*",
+    "https://m.facebook.com/*"
+  ]
+}

@@ -1,0 +1,11 @@
+.userContentWrapper > div:nth-child(2) {
+    display: none;
+}
+
+article footer {
+    display: none;
+}
+
+#MPhotoContent > div:nth-child(2) {
+    display: none;
+}
